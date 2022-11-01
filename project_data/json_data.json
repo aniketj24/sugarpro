@@ -1,0 +1,1 @@
+{"Outcome": {"1": "yes", "0": "no"}, "columns": ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age"]}

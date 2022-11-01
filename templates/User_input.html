@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dibetes Data set are Descese or Not</title>
+</head>
+<body style ="background-color: rgba(73, 211, 204, 0.521);">
+    <center>
+
+    <h1>Diabetes Descese or Not</h1>
+    <form method ="POST" action="/Result">
+
+        <label>Glucose :</label>
+        <input type ="text" name="Glucose">
+        </select>
+
+        <br>
+        <br>
+
+        <label>BloodPressure :</label>
+        <input type ="text" name="BloodPressure">
+        </select>
+
+        <br>
+        <br>
+
+        <label>SkinThickness :</label>
+        <input type ="text" name="SkinThickness">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Insulin :</label>
+        <input type ="text" name="Insulin">
+        </select>
+
+        <br>
+        <br>
+
+        <label>BMI :</label>
+        <input type ="text" name="BMI">
+        </select>
+
+        <br>
+        <br>
+
+        <label>DiabetesPedigreeFunction :</label>
+        <input type ="text" name="DiabetesPedigreeFunction">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Age :</label>
+        <input type ="text" name="Age">
+        </select>
+
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        <br>
+
+        <p> Your Diabetes Descese or Not <b>{{prediction}}</b> .</p>
+
+        </center>
+
+    </form>
+    
+</body>
+</html>
